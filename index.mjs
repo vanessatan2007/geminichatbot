@@ -18,3 +18,12 @@ const model = genAI.getGenerativeModel({
     temperature: 0.8,
   },
 });
+running = true;
+while(!running) {
+  const prompt = "prompt"
+  const gemPrompt = prompt;
+  const items = (await model.generateContent(gemResponse)).response.text();
+}
+
+
+
