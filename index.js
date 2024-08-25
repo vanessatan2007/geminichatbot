@@ -12,7 +12,7 @@ const model = genAI.getGenerativeModel({
 
 async function chatLoop() {
     let keepGoing = true;
-    console.log("Hi, I'm chatbot gemini, chat with me about anything. Say stop anytime.git ")
+    console.log("Hi, I'm chatbot gemini, chat with me about anything. Say stop anytime.")
     while (keepGoing) {
         // Get user input
         const prompt = readlineSync.question('You: ');
